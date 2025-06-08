@@ -17,7 +17,7 @@
 <body>
 
 <h1>Grade 1 IMC Practice Test</h1>
-<div id="timer">Time left: 60:00</div>
+<div id="timer">Time left: 45:00</div>
 <button class="end-test" onclick="endTest()">End Test</button>
 
 <div id="question-container"></div>
@@ -31,7 +31,7 @@ let questions = [];
 let shuffledQuestions = [];
 let currentIndex = 0;
 const userAnswers = Array(45).fill(null);
-let timer = 60 * 60; // 1 hour in seconds
+let timer = 45 * 60;
 
 fetch('imc_grade1_questions.json')
   .then(response => response.json())
@@ -75,7 +75,7 @@ function submitAnswer() {
     return;
   }
   userAnswers[currentIndex] = selected.value;
-  if (currentIndex < 44) {
+  if (currentIndex < 19) {
     currentIndex++;
     showQuestion(currentIndex);
   } else {
@@ -102,7 +102,7 @@ function endTest() {
              Your answer: ${userAns || 'No answer'}<br>
              Correct answer: ${correct}</div><hr>`;
   });
-  html = `<div class="score">Your score: ${score}/45</div>` + html;
+  html = `<div class="score">Your score: ${score}/20</div>` + html;
   document.getElementById('result-container').innerHTML = html;
   document.getElementById('result-container').style.display = 'block';
   document.getElementById('question-container').style.display = 'none';
