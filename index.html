@@ -35,14 +35,14 @@
 let questions = [];
 let shuffledQuestions = [];
 let currentIndex = 0;
-const userAnswers = Array(45).fill(null);
+const userAnswers = Array(20).fill(null);
 let timer = 45 * 60;
 
 fetch('imc_grade1_questions.json')
   .then(response => response.json())
   .then(data => {
     questions = data;
-    shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, 45);
+    shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, 20);
     showQuestion(currentIndex);
     startTimer();
   });
