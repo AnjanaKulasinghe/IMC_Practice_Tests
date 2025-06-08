@@ -35,35 +35,80 @@
 let questions = [];
 let shuffledQuestions = [];
 let currentIndex = 0;
-const userAnswers = Array(20).fill(null);
-let timer = 45 * 60;
+let userAnswers = [];
+let timer = 45 * 60; // 45 minutes
+let timerInterval;
 
+// Sample questions for demonstration - replace with your JSON file
+const sampleQuestions = [
+  {
+    question: "What is 2 + 3?",
+    options: ["4", "5", "6", "7"],
+    answer: "5"
+  },
+  {
+    question: "Which is bigger: 8 or 5?",
+    options: ["8", "5", "They are equal"],
+    answer: "8"
+  },
+  {
+    question: "How many sides does a triangle have?",
+    options: ["2", "3", "4", "5"],
+    answer: "3"
+  },
+  // Add more questions here...
+];
+
+// Initialize the test
+function initializeTest() {
+  questions = sampleQuestions; // Replace with your JSON loading
+  shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, 20);
+  userAnswers = Array(shuffledQuestions.length).fill(null);
+  currentIndex = 0;
+  showQuestion(currentIndex);
+  startTimer();
+}
+
+// Uncomment this section when you have your JSON file
+/*
 fetch('imc_grade1_questions.json')
   .then(response => response.json())
   .then(data => {
     questions = data;
     shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, 20);
+    userAnswers = Array(shuffledQuestions.length).fill(null);
     showQuestion(currentIndex);
     startTimer();
+  })
+  .catch(error => {
+    console.error('Error loading questions:', error);
+    alert('Could not load questions. Please check if imc_grade1_questions.json exists.');
   });
+*/
 
 function startTimer() {
   const timerEl = document.getElementById('timer');
-  const interval = setInterval(() => {
+  timerInterval = setInterval(() => {
     const min = String(Math.floor(timer / 60)).padStart(2, '0');
     const sec = String(timer % 60).padStart(2, '0');
     timerEl.textContent = `Time left: ${min}:${sec}`;
     if (timer <= 0) {
-      clearInterval(interval);
+      clearInterval(timerInterval);
       endTest();
+      return;
     }
     timer--;
   }, 1000);
 }
 
 function showQuestion(index) {
+  if (index >= shuffledQuestions.length) {
+    endTest();
+    return;
+  }
+  
   const q = shuffledQuestions[index];
-  let html = `<div class="question-box"><strong>Q${index + 1}:</strong> ${q.question}</div>`;
+  let html = `<div class="question-box"><strong>Q${index + 1} of ${shuffledQuestions.length}:</strong> ${q.question}</div>`;
   html += '<div class="options">';
   q.options.forEach(opt => {
     const checked = userAnswers[index] === opt ? 'checked' : '';
@@ -80,7 +125,7 @@ function submitAnswer() {
     return;
   }
   userAnswers[currentIndex] = selected.value;
-  if (currentIndex < 19) {
+  if (currentIndex < shuffledQuestions.length - 1) {
     currentIndex++;
     showQuestion(currentIndex);
   } else {
@@ -96,8 +141,14 @@ function prevQuestion() {
 }
 
 function endTest() {
+  // Clear the timer
+  if (timerInterval) {
+    clearInterval(timerInterval);
+  }
+  
   let score = 0;
   let html = '<h2>🎉 Test Completed! 🎉</h2>';
+  
   shuffledQuestions.forEach((q, i) => {
     const userAns = userAnswers[i];
     const correct = q.answer;
@@ -133,6 +184,9 @@ function endTest() {
   document.getElementById('question-container').style.display = 'none';
   document.querySelectorAll('.btn, .end-test').forEach(btn => btn.style.display = 'none');
 }
+
+// Initialize the test when page loads
+initializeTest();
 </script>
 
 </body>
