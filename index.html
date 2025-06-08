@@ -7,11 +7,16 @@
   body { font-family: Arial, sans-serif; margin: 20px; }
   .question-box { margin: 20px 0; }
   .options label { display: block; margin-bottom: 10px; }
-  .btn { padding: 10px 20px; margin: 10px; }
+  .btn { padding: 10px 20px; margin: 10px; cursor: pointer; }
   .end-test { position: fixed; top: 20px; right: 20px; background: red; color: white; border: none; cursor: pointer; }
-  .score { font-size: 1.2em; margin-top: 20px; }
-  .correct { color: green; }
-  .wrong { color: red; }
+  .score { font-size: 1.5em; margin-top: 20px; font-weight: bold; color: #333; }
+  .correct { color: green; margin-bottom: 5px; }
+  .wrong { color: red; margin-bottom: 5px; }
+  .result-summary { background: #f0f8ff; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+  .title { font-size: 1.8em; font-weight: bold; margin-top: 10px; }
+  .title.elitist { color: darkblue; }
+  .title.champion { color: darkgreen; }
+  .final-results { margin-top: 20px; }
 </style>
 </head>
 <body>
@@ -92,7 +97,7 @@ function prevQuestion() {
 
 function endTest() {
   let score = 0;
-  let html = '<h2>Test Completed!</h2>';
+  let html = '<h2>🎉 Test Completed! 🎉</h2>';
   shuffledQuestions.forEach((q, i) => {
     const userAns = userAnswers[i];
     const correct = q.answer;
@@ -102,7 +107,27 @@ function endTest() {
              Your answer: ${userAns || 'No answer'}<br>
              Correct answer: ${correct}</div><hr>`;
   });
-  html = `<div class="score">Your score: ${score}/20</div>` + html;
+
+  // Calculate percentage and assign title
+  const totalQuestions = shuffledQuestions.length;
+  const percent = (score / totalQuestions) * 100;
+  let titleHtml = '';
+  if (percent >= 95) {
+    titleHtml = `<div class="title champion">🏆 CHAMPION 🏆</div>`;
+  } else if (percent >= 80) {
+    titleHtml = `<div class="title elitist">🌟 ELITIST 🌟</div>`;
+  } else {
+    titleHtml = `<div class="title" style="color: orange;">👍 Good effort! 👍</div>`;
+  }
+
+  const summaryHtml = `
+    <div class="result-summary">
+      <div class="score">Your score: ${score} / ${totalQuestions} (${percent.toFixed(1)}%)</div>
+      ${titleHtml}
+    </div>
+  `;
+
+  html = summaryHtml + `<div class="final-results">${html}</div>`;
   document.getElementById('result-container').innerHTML = html;
   document.getElementById('result-container').style.display = 'block';
   document.getElementById('question-container').style.display = 'none';
