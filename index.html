@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grade 1 IMC Practice Test</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  .question-box { margin: 20px 0; }
+  .options label { display: block; margin-bottom: 10px; }
+  .btn { padding: 10px 20px; margin: 10px; }
+  .end-test { position: fixed; top: 20px; right: 20px; background: red; color: white; border: none; cursor: pointer; }
+  .score { font-size: 1.2em; margin-top: 20px; }
+  .correct { color: green; }
+  .wrong { color: red; }
+</style>
+</head>
+<body>
+
+<h1>Grade 1 IMC Practice Test</h1>
+<div id="timer">Time left: 60:00</div>
+<button class="end-test" onclick="endTest()">End Test</button>
+
+<div id="question-container"></div>
+<button class="btn" onclick="prevQuestion()">⬅ Back</button>
+<button class="btn" onclick="submitAnswer()">Submit & Next ➡</button>
+
+<div id="result-container" style="display:none;"></div>
+
+<script>
+let questions = [];
+let shuffledQuestions = [];
+let currentIndex = 0;
+const userAnswers = Array(45).fill(null);
+let timer = 60 * 60; // 1 hour in seconds
+
+fetch('imc_grade1_questions.json')
+  .then(response => response.json())
+  .then(data => {
+    questions = data;
+    shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, 45);
+    showQuestion(currentIndex);
+    startTimer();
+  });
+
+function startTimer() {
+  const timerEl = document.getElementById('timer');
+  const interval = setInterval(() => {
+    const min = String(Math.floor(timer / 60)).padStart(2, '0');
+    const sec = String(timer % 60).padStart(2, '0');
+    timerEl.textContent = `Time left: ${min}:${sec}`;
+    if (timer <= 0) {
+      clearInterval(interval);
+      endTest();
+    }
+    timer--;
+  }, 1000);
+}
+
+function showQuestion(index) {
+  const q = shuffledQuestions[index];
+  let html = `<div class="question-box"><strong>Q${index + 1}:</strong> ${q.question}</div>`;
+  html += '<div class="options">';
+  q.options.forEach(opt => {
+    const checked = userAnswers[index] === opt ? 'checked' : '';
+    html += `<label><input type="radio" name="option" value="${opt}" ${checked}> ${opt}</label>`;
+  });
+  html += '</div>';
+  document.getElementById('question-container').innerHTML = html;
+}
+
+function submitAnswer() {
+  const selected = document.querySelector('input[name="option"]:checked');
+  if (!selected) {
+    alert('Please select an answer!');
+    return;
+  }
+  userAnswers[currentIndex] = selected.value;
+  if (currentIndex < 44) {
+    currentIndex++;
+    showQuestion(currentIndex);
+  } else {
+    endTest();
+  }
+}
+
+function prevQuestion() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    showQuestion(currentIndex);
+  }
+}
+
+function endTest() {
+  let score = 0;
+  let html = '<h2>Test Completed!</h2>';
+  shuffledQuestions.forEach((q, i) => {
+    const userAns = userAnswers[i];
+    const correct = q.answer;
+    const cls = userAns === correct ? 'correct' : 'wrong';
+    if (userAns === correct) score++;
+    html += `<div class="${cls}">Q${i+1}: ${q.question}<br>
+             Your answer: ${userAns || 'No answer'}<br>
+             Correct answer: ${correct}</div><hr>`;
+  });
+  html = `<div class="score">Your score: ${score}/45</div>` + html;
+  document.getElementById('result-container').innerHTML = html;
+  document.getElementById('result-container').style.display = 'block';
+  document.getElementById('question-container').style.display = 'none';
+  document.querySelectorAll('.btn, .end-test').forEach(btn => btn.style.display = 'none');
+}
+</script>
+
+</body>
+</html>
