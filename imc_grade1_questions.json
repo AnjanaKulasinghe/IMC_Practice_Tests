@@ -1,797 +1,507 @@
 [
   {
-    "question": "What number comes after 15?",
-    "options": ["14", "16", "17"],
-    "answer": "16"
+    "question": "Sarah has 15 stickers. She gives 6 stickers to her brother and 4 stickers to her friend. How many stickers does Sarah have left?",
+    "options": ["5", "6", "4", "7"],
+    "answer": "5"
   },
   {
-    "question": "Which is the smallest number?",
-    "options": ["8", "3", "12", "6"],
-    "answer": "3"
+    "question": "A bookshelf has 3 shelves. Each shelf has 8 books. If 5 books are taken away, how many books are left on the bookshelf?",
+    "options": ["19", "18", "20", "21"],
+    "answer": "19"
   },
   {
-    "question": "How many tens are in 47?",
-    "options": ["7", "4", "47"],
-    "answer": "4"
+    "question": "Tom is thinking of a number. When he adds 12 to his number, he gets 25. What number is Tom thinking of?",
+    "options": ["13", "12", "14", "37"],
+    "answer": "13"
   },
   {
-    "question": "Count backwards: 20, 19, 18, ___",
-    "options": ["16", "17", "21"],
-    "answer": "17"
+    "question": "In a parking lot, there are 7 cars and some motorcycles. If there are 18 vehicles in total, how many motorcycles are there?",
+    "options": ["11", "10", "12", "25"],
+    "answer": "11"
   },
   {
-    "question": "Which number is between 23 and 25?",
-    "options": ["22", "24", "26"],
-    "answer": "24"
+    "question": "Emma saves $3 every day for a whole week. On Sunday, she spends $8 on a toy. How much money does she have left?",
+    "options": ["$13", "$12", "$14", "$21"],
+    "answer": "$13"
   },
   {
-    "question": "What is 10 more than 35?",
-    "options": ["25", "45", "36", "44"],
-    "answer": "45"
+    "question": "A train has 4 carriages. Each carriage has 12 seats. If 15 seats are empty, how many passengers are on the train?",
+    "options": ["33", "32", "34", "48"],
+    "answer": "33"
   },
   {
-    "question": "Which number has 6 in the ones place?",
-    "options": ["60", "16", "61", "26"],
-    "answer": "16"
+    "question": "Look at this number sequence: 2, 5, 8, 11, ___. What number comes next?",
+    "options": ["13", "14", "15", "12"],
+    "answer": "14"
   },
   {
-    "question": "Round 18 to the nearest ten.",
-    "options": ["10", "20", "15"],
-    "answer": "20"
-  },
-  {
-    "question": "Which is the largest number?",
-    "options": ["29", "92", "39", "93"],
-    "answer": "93"
-  },
-  {
-    "question": "What number is 5 less than 32?",
-    "options": ["37", "27", "28"],
-    "answer": "27"
-  },
-  {
-    "question": "How many ones are in 58?",
-    "options": ["5", "8", "58"],
-    "answer": "8"
-  },
-  {
-    "question": "Which comes first when counting?",
-    "options": ["76", "67", "77", "66"],
-    "answer": "66"
-  },
-  {
-    "question": "What is the next odd number after 41?",
-    "options": ["42", "43", "40"],
-    "answer": "43"
-  },
-  {
-    "question": "Which number is closest to 50?",
-    "options": ["45", "53", "38", "60"],
-    "answer": "53"
-  },
-  {
-    "question": "Complete the pattern: 12, 14, 16, ___",
-    "options": ["17", "18", "20"],
-    "answer": "18"
-  },
-  {
-    "question": "What is 7 + 8?",
-    "options": ["14", "15", "16"],
-    "answer": "15"
-  },
-  {
-    "question": "Find the sum: 25 + 13",
-    "options": ["38", "37", "39", "36"],
-    "answer": "38"
-  },
-  {
-    "question": "What is 9 + 6?",
-    "options": ["15", "16", "14"],
-    "answer": "15"
-  },
-  {
-    "question": "Add: 34 + 21",
-    "options": ["55", "54", "56", "53"],
-    "answer": "55"
-  },
-  {
-    "question": "What is 5 + 7 + 3?",
-    "options": ["15", "16", "14", "17"],
-    "answer": "15"
-  },
-  {
-    "question": "Find: 40 + 27",
-    "options": ["67", "66", "68", "65"],
-    "answer": "67"
-  },
-  {
-    "question": "What is 8 + 4?",
-    "options": ["11", "12", "13"],
-    "answer": "12"
-  },
-  {
-    "question": "Add: 19 + 16",
-    "options": ["35", "34", "36", "33"],
-    "answer": "35"
-  },
-  {
-    "question": "What is 6 + 9?",
-    "options": ["15", "16", "14"],
-    "answer": "15"
-  },
-  {
-    "question": "Find the sum: 28 + 15",
-    "options": ["43", "42", "44", "41"],
-    "answer": "43"
-  },
-  {
-    "question": "What is 12 - 5?",
-    "options": ["7", "8", "6"],
+    "question": "A garden has roses and tulips. There are 16 flowers in total. If there are 9 roses, how many tulips are there?",
+    "options": ["7", "6", "8", "25"],
     "answer": "7"
   },
   {
-    "question": "Subtract: 24 - 16",
-    "options": ["8", "9", "7", "10"],
-    "answer": "8"
+    "question": "Jake has 24 marbles. He wants to put them into bags with 6 marbles in each bag. How many bags will he need?",
+    "options": ["4", "3", "5", "18"],
+    "answer": "4"
   },
   {
-    "question": "What is 18 - 9?",
-    "options": ["9", "8", "10"],
-    "answer": "9"
+    "question": "A rectangle has a length of 9cm and width of 4cm. What is the perimeter of this rectangle?",
+    "options": ["26cm", "25cm", "27cm", "36cm"],
+    "answer": "26cm"
   },
   {
-    "question": "Find: 35 - 18",
-    "options": ["17", "16", "18", "15"],
+    "question": "If today is Tuesday, what day will it be in 10 days?",
+    "options": ["Thursday", "Friday", "Wednesday", "Saturday"],
+    "answer": "Friday"
+  },
+  {
+    "question": "Amy has 3 boxes of crayons. Each box has 8 crayons. She loses 7 crayons. How many crayons does she have now?",
+    "options": ["17", "16", "18", "24"],
     "answer": "17"
   },
   {
-    "question": "What is 20 - 7?",
+    "question": "Which number is 5 more than the sum of 14 and 8?",
+    "options": ["27", "26", "28", "17"],
+    "answer": "27"
+  },
+  {
+    "question": "A clock shows 3:15. How many minutes past 3 o'clock is this?",
+    "options": ["15", "45", "30", "25"],
+    "answer": "15"
+  },
+  {
+    "question": "Ben has 45 cents. He buys a pencil for 18 cents and an eraser for 12 cents. How much money does he have left?",
+    "options": ["15 cents", "14 cents", "16 cents", "30 cents"],
+    "answer": "15 cents"
+  },
+  {
+    "question": "A triangle, a square, and a circle are arranged in a pattern: △□○△□○. What shape comes next?",
+    "options": ["triangle", "square", "circle", "pentagon"],
+    "answer": "triangle"
+  },
+  {
+    "question": "There are 28 children in a class. 13 are boys. How many more girls than boys are there?",
+    "options": ["2", "1", "3", "15"],
+    "answer": "2"
+  },
+  {
+    "question": "A farmer has 36 eggs. He puts them into cartons of 6 eggs each. How many full cartons can he make?",
+    "options": ["6", "5", "7", "30"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the smallest number that you can make using the digits 5, 2, and 8?",
+    "options": ["258", "285", "528", "825"],
+    "answer": "258"
+  },
+  {
+    "question": "Lisa reads 4 pages of her book every day. After 5 days, she has read 32 pages in total. How many pages had she already read before these 5 days?",
+    "options": ["12", "11", "13", "20"],
+    "answer": "12"
+  },
+  {
+    "question": "A number pattern goes: 50, 45, 40, 35, ___. What is the next number?",
+    "options": ["30", "25", "20", "32"],
+    "answer": "30"
+  },
+  {
+    "question": "In a race, Alex finished 3rd, Ben finished 7th, and Carl finished between them. What position could Carl have finished?",
+    "options": ["2nd", "5th", "8th", "1st"],
+    "answer": "5th"
+  },
+  {
+    "question": "A pizza is cut into 8 equal slices. Tom eats 3 slices and Jerry eats 2 slices. What fraction of the pizza is left?",
+    "options": ["3/8", "2/8", "5/8", "1/8"],
+    "answer": "3/8"
+  },
+  {
+    "question": "Maya has some stickers. She gives away 8 stickers and has 17 left. How many stickers did she start with?",
+    "options": ["25", "24", "26", "9"],
+    "answer": "25"
+  },
+  {
+    "question": "A school bus stops 6 times on its route. At each stop, 4 children get on the bus. How many children are on the bus after all stops?",
+    "options": ["24", "23", "25", "10"],
+    "answer": "24"
+  },
+  {
+    "question": "Which fraction is equivalent to 6/8?",
+    "options": ["3/4", "2/3", "4/6", "1/2"],
+    "answer": "3/4"
+  },
+  {
+    "question": "A box contains 15 red balls, 12 blue balls, and 8 green balls. How many balls are in the box altogether?",
+    "options": ["35", "34", "36", "27"],
+    "answer": "35"
+  },
+  {
+    "question": "If 1 dozen equals 12, how many items are in 3 dozen?",
+    "options": ["36", "35", "37", "15"],
+    "answer": "36"
+  },
+  {
+    "question": "A rectangle is divided into 4 equal parts. If 3 parts are shaded, what fraction is NOT shaded?",
+    "options": ["1/4", "3/4", "1/3", "2/4"],
+    "answer": "1/4"
+  },
+  {
+    "question": "Sam counts by 7s: 7, 14, 21, 28, ___. What number comes next?",
+    "options": ["35", "34", "36", "29"],
+    "answer": "35"
+  },
+  {
+    "question": "A store has 48 apples. They are packed into bags of 8 apples each. How many bags are needed?",
+    "options": ["6", "5", "7", "40"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the difference between the largest and smallest two-digit numbers?",
+    "options": ["89", "88", "90", "91"],
+    "answer": "89"
+  },
+  {
+    "question": "A cube has 6 faces. Each face has 4 corners. How many corners does a cube have in total?",
+    "options": ["8", "12", "24", "6"],
+    "answer": "8"
+  },
+  {
+    "question": "Tim has 63 stickers. He arranges them in rows of 9 stickers each. How many complete rows can he make?",
+    "options": ["7", "6", "8", "54"],
+    "answer": "7"
+  },
+  {
+    "question": "A digital clock shows 08:45. How many minutes until 9:00?",
+    "options": ["15", "45", "30", "60"],
+    "answer": "15"
+  },
+  {
+    "question": "In a bag, there are 4 red marbles, 6 blue marbles, and 5 yellow marbles. What is the total number of marbles?",
+    "options": ["15", "14", "16", "11"],
+    "answer": "15"
+  },
+  {
+    "question": "A pattern shows: 1, 4, 7, 10, 13, ___. What is the rule for this pattern?",
+    "options": ["add 3", "add 4", "add 2", "multiply by 3"],
+    "answer": "add 3"
+  },
+  {
+    "question": "Rosa has 2 twenty-dollar bills, 3 ten-dollar bills, and 4 five-dollar bills. How much money does she have?",
+    "options": ["$90", "$80", "$70", "$100"],
+    "answer": "$90"
+  },
+  {
+    "question": "A shape has 5 sides and 5 corners. What is this shape called?",
+    "options": ["pentagon", "hexagon", "octagon", "triangle"],
+    "answer": "pentagon"
+  },
+  {
+    "question": "If you arrange 20 chairs in 4 equal rows, how many chairs will be in each row?",
+    "options": ["5", "4", "6", "16"],
+    "answer": "5"
+  },
+  {
+    "question": "What is 3/4 of 20?",
+    "options": ["15", "14", "16", "12"],
+    "answer": "15"
+  },
+  {
+    "question": "A tree grows 3 centimeters each month. How tall will it be after 6 months if it starts at 45 centimeters?",
+    "options": ["63cm", "62cm", "64cm", "48cm"],
+    "answer": "63cm"
+  },
+  {
+    "question": "Which number comes next in this sequence: 64, 56, 48, 40, ___?",
+    "options": ["32", "30", "34", "36"],
+    "answer": "32"
+  },
+  {
+    "question": "A library has 3 floors. The first floor has 25 books, the second floor has 18 books, and the third floor has 32 books. How many books are there in total?",
+    "options": ["75", "74", "76", "50"],
+    "answer": "75"
+  },
+  {
+    "question": "If 1 week = 7 days, how many days are in 5 weeks?",
+    "options": ["35", "34", "36", "12"],
+    "answer": "35"
+  },
+  {
+    "question": "A hexagon has how many sides?",
+    "options": ["6", "5", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "Danny has 84 baseball cards. He wants to put them in albums with 12 cards per page. How many pages will he need?",
+    "options": ["7", "6", "8", "72"],
+    "answer": "7"
+  },
+  {
+    "question": "What is the sum of all the odd numbers from 1 to 9?",
+    "options": ["25", "24", "26", "30"],
+    "answer": "25"
+  },
+  {
+    "question": "A rectangle has an area of 24 square units. If its width is 4 units, what is its length?",
+    "options": ["6 units", "5 units", "7 units", "20 units"],
+    "answer": "6 units"
+  },
+  {
+    "question": "In a month with 31 days, if the 1st is a Monday, what day of the week is the 31st?",
+    "options": ["Wednesday", "Tuesday", "Thursday", "Monday"],
+    "answer": "Wednesday"
+  },
+  {
+    "question": "A shopkeeper has 72 oranges. He sells them in bags of 8 oranges each. After selling all the bags, how much money does he make if each bag costs $5?",
+    "options": ["$45", "$40", "$50", "$35"],
+    "answer": "$45"
+  },
+  {
+    "question": "Lucy collects stamps. She has 5 pages with 7 stamps on each page. If she gives away 12 stamps, how many stamps does she have left?",
+    "options": ["23", "22", "24", "35"],
+    "answer": "23"
+  },
+  {
+    "question": "A number is 6 more than 27. What is half of this number?",
+    "options": ["16", "17", "15", "33"],
+    "answer": "16"
+  },
+  {
+    "question": "In a classroom, there are 6 rows of desks with 5 desks in each row. If 8 desks are empty, how many students are present?",
+    "options": ["22", "23", "21", "30"],
+    "answer": "22"
+  },
+  {
+    "question": "A baker makes 48 cupcakes. He puts them in boxes of 6 cupcakes each. How many boxes does he fill?",
+    "options": ["8", "7", "9", "42"],
+    "answer": "8"
+  },
+  {
+    "question": "What is the next number in this pattern: 3, 7, 11, 15, ___?",
+    "options": ["19", "18", "20", "16"],
+    "answer": "19"
+  },
+  {
+    "question": "Mike has 2 bags of marbles. One bag has 16 marbles and the other has 19 marbles. He loses 7 marbles. How many marbles does he have now?",
+    "options": ["28", "27", "29", "35"],
+    "answer": "28"
+  },
+  {
+    "question": "A square playground has sides of 12 meters each. What is the perimeter of the playground?",
+    "options": ["48 meters", "47 meters", "49 meters", "24 meters"],
+    "answer": "48 meters"
+  },
+  {
+    "question": "If it takes 15 minutes to walk to school, and school starts at 8:30, what time should you leave home?",
+    "options": ["8:15", "8:45", "8:00", "8:30"],
+    "answer": "8:15"
+  },
+  {
+    "question": "A pattern goes: ★○★★○★★★○___. What comes next?",
+    "options": ["★", "○", "★★", "○○"],
+    "answer": "★"
+  },
+  {
+    "question": "Jenny has 64 stickers. She wants to share them equally among 8 friends. How many stickers will each friend get?",
+    "options": ["8", "7", "9", "56"],
+    "answer": "8"
+  },
+  {
+    "question": "What is the largest number you can make using the digits 4, 1, and 9?",
+    "options": ["941", "914", "491", "419"],
+    "answer": "941"
+  },
+  {
+    "question": "A train journey takes 2 hours and 45 minutes. If the train leaves at 10:15, what time does it arrive?",
+    "options": ["1:00", "12:45", "1:15", "12:30"],
+    "answer": "1:00"
+  },
+  {
+    "question": "In a bag of 30 candies, 12 are red, 8 are blue, and the rest are green. How many green candies are there?",
+    "options": ["10", "9", "11", "20"],
+    "answer": "10"
+  },
+  {
+    "question": "A book has 96 pages. Tom reads 8 pages each day. How many days will it take him to finish the book?",
+    "options": ["12", "11", "13", "88"],
+    "answer": "12"
+  },
+  {
+    "question": "Which fraction is larger: 2/3 or 3/4?",
+    "options": ["2/3", "3/4", "same", "cannot tell"],
+    "answer": "3/4"
+  },
+  {
+    "question": "A parking meter costs 25 cents for 30 minutes. How much does it cost for 2 hours?",
+    "options": ["$1.00", "$1.25", "$0.75", "$1.50"],
+    "answer": "$1.00"
+  },
+  {
+    "question": "In a zoo, there are 15 birds, 8 mammals, and 12 reptiles. How many animals are there in total?",
+    "options": ["35", "34", "36", "23"],
+    "answer": "35"
+  },
+  {
+    "question": "A rectangle is 8cm long and 3cm wide. What is its area?",
+    "options": ["24cm²", "22cm²", "11cm²", "26cm²"],
+    "answer": "24cm²"
+  },
+  {
+    "question": "What comes next: 81, 72, 63, 54, ___?",
+    "options": ["45", "44", "46", "36"],
+    "answer": "45"
+  },
+  {
+    "question": "Sarah has 3 coins: 2 quarters and 1 dime. How much money does she have?",
+    "options": ["60 cents", "55 cents", "65 cents", "70 cents"],
+    "answer": "60 cents"
+  },
+  {
+    "question": "A triangle has sides of 5cm, 7cm, and 8cm. What is the perimeter?",
+    "options": ["20cm", "19cm", "21cm", "15cm"],
+    "answer": "20cm"
+  },
+  {
+    "question": "If you save $4 every week, how much will you have after 9 weeks?",
+    "options": ["$36", "$35", "$37", "$13"],
+    "answer": "$36"
+  },
+  {
+    "question": "A pentagon has 5 sides. How many sides do 3 pentagons have altogether?",
+    "options": ["15", "14", "16", "8"],
+    "answer": "15"
+  },
+  {
+    "question": "What is 1/2 of 38?",
+    "options": ["19", "18", "20", "76"],
+    "answer": "19"
+  },
+  {
+    "question": "A movie starts at 2:15 PM and lasts for 1 hour and 30 minutes. What time does it end?",
+    "options": ["3:45 PM", "4:15 PM", "3:30 PM", "4:00 PM"],
+    "answer": "3:45 PM"
+  },
+  {
+    "question": "In a class survey, 14 students like pizza, 9 like burgers, and 5 like both. How many students were surveyed?",
+    "options": ["18", "17", "19", "28"],
+    "answer": "18"
+  },
+  {
+    "question": "A ladder has 12 steps. Tom climbs up 8 steps, then down 3 steps. Which step is he on now?",
+    "options": ["5th", "4th", "6th", "8th"],
+    "answer": "5th"
+  },
+  {
+    "question": "What is the sum of the first 5 even numbers? (2, 4, 6, 8, 10)",
+    "options": ["30", "29", "31", "25"],
+    "answer": "30"
+  },
+  {
+    "question": "A cylindrical can has a circular base and curved sides. How many flat surfaces does it have?",
+    "options": ["2", "1", "3", "0"],
+    "answer": "2"
+  },
+  {
+    "question": "Anna buys 3 notebooks for $2 each and 2 pens for $1 each. How much does she spend in total?",
+    "options": ["$8", "$7", "$9", "$5"],
+    "answer": "$8"
+  },
+  {
+    "question": "A clock shows 6:20. How many minutes until half past 6?",
+    "options": ["10", "20", "30", "40"],
+    "answer": "10"
+  },
+  {
+    "question": "In a number sequence: 4, 9, 14, 19, ___. What number comes next?",
+    "options": ["24", "23", "25", "29"],
+    "answer": "24"
+  },
+  {
+    "question": "A box contains 42 chocolates arranged in 6 equal rows. How many chocolates are in each row?",
+    "options": ["7", "6", "8", "36"],
+    "answer": "7"
+  },
+  {
+    "question": "What is the difference between 73 and 28?",
+    "options": ["45", "44", "46", "101"],
+    "answer": "45"
+  },
+  {
+    "question": "If today is Friday, what day was it 4 days ago?",
+    "options": ["Monday", "Tuesday", "Sunday", "Wednesday"],
+    "answer": "Monday"
+  },
+  {
+    "question": "A garden has 18 roses arranged in 3 equal rows. If 2 roses from each row are picked, how many roses are left?",
+    "options": ["12", "11", "13", "16"],
+    "answer": "12"
+  },
+  {
+    "question": "Which number is exactly halfway between 16 and 28?",
+    "options": ["22", "21", "23", "20"],
+    "answer": "22"
+  },
+  {
+    "question": "A pizza has 12 slices. If 3/4 of the pizza is eaten, how many slices are left?",
+    "options": ["3", "2", "4", "9"],
+    "answer": "3"
+  },
+  {
+    "question": "What is 5 × 9?",
+    "options": ["45", "44", "46", "54"],
+    "answer": "45"
+  },
+  {
+    "question": "A school has 8 classes with 24 students in each class. How many students are there in the school?",
+    "options": ["192", "191", "193", "32"],
+    "answer": "192"
+  },
+  {
+    "question": "Complete the pattern: 1, 1, 2, 3, 5, 8, ___",
     "options": ["13", "12", "14", "11"],
     "answer": "13"
   },
   {
-    "question": "Subtract: 41 - 25",
-    "options": ["16", "15", "17", "14"],
-    "answer": "16"
+    "question": "A rectangle is twice as long as it is wide. If the width is 6cm, what is the perimeter?",
+    "options": ["36cm", "35cm", "37cm", "24cm"],
+    "answer": "36cm"
   },
   {
-    "question": "What is 15 - 8?",
-    "options": ["7", "6", "8"],
+    "question": "In a race, Lisa finished 2 positions ahead of Mark. If Mark finished 7th, what position did Lisa finish?",
+    "options": ["5th", "4th", "6th", "9th"],
+    "answer": "5th"
+  },
+  {
+    "question": "A farmer has 56 chickens. He puts them in coops with 8 chickens in each coop. How many coops does he need?",
+    "options": ["7", "6", "8", "48"],
     "answer": "7"
   },
   {
-    "question": "Find: 32 - 14",
-    "options": ["18", "17", "19", "16"],
-    "answer": "18"
-  },
-  {
-    "question": "What is 26 - 9?",
-    "options": ["17", "16", "18", "15"],
-    "answer": "17"
-  },
-  {
-    "question": "Subtract: 50 - 23",
-    "options": ["27", "26", "28", "25"],
-    "answer": "27"
-  },
-  {
-    "question": "How many groups of 3 are in 12?",
-    "options": ["3", "4", "5"],
-    "answer": "4"
-  },
-  {
-    "question": "What is 2 × 6?",
-    "options": ["12", "10", "14", "8"],
-    "answer": "12"
-  },
-  {
-    "question": "If you have 3 rows of 4 apples, how many apples in total?",
-    "options": ["12", "10", "14", "7"],
-    "answer": "12"
-  },
-  {
-    "question": "What is 5 × 2?",
-    "options": ["10", "12", "8"],
+    "question": "What is 2/5 of 25?",
+    "options": ["10", "9", "11", "5"],
     "answer": "10"
   },
   {
-    "question": "How many wheels on 4 bicycles?",
-    "options": ["8", "6", "10", "4"],
-    "answer": "8"
-  },
-  {
-    "question": "What is 3 × 7?",
-    "options": ["21", "20", "22", "18"],
-    "answer": "21"
-  },
-  {
-    "question": "If 1 box has 6 cookies, how many cookies in 2 boxes?",
-    "options": ["12", "10", "8"],
-    "answer": "12"
-  },
-  {
-    "question": "What is 4 × 5?",
-    "options": ["20", "18", "22", "16"],
-    "answer": "20"
-  },
-  {
-    "question": "How many legs on 3 cats?",
-    "options": ["12", "10", "9", "15"],
-    "answer": "12"
-  },
-  {
-    "question": "What is 6 × 3?",
-    "options": ["18", "16", "20", "15"],
-    "answer": "18"
-  },
-  {
-    "question": "Share 10 candies equally among 2 children. How many each?",
-    "options": ["5", "4", "6"],
-    "answer": "5"
-  },
-  {
-    "question": "What is 15 ÷ 3?",
-    "options": ["5", "4", "6", "3"],
-    "answer": "5"
-  },
-  {
-    "question": "Divide 12 cookies into groups of 4. How many groups?",
-    "options": ["3", "2", "4"],
-    "answer": "3"
-  },
-  {
-    "question": "What is 20 ÷ 4?",
-    "options": ["5", "4", "6", "3"],
-    "answer": "5"
-  },
-  {
-    "question": "Share 14 stickers equally among 7 friends. How many each?",
-    "options": ["2", "3", "1", "4"],
-    "answer": "2"
-  },
-  {
-    "question": "What is 18 ÷ 6?",
-    "options": ["3", "2", "4", "5"],
-    "answer": "3"
-  },
-  {
-    "question": "Divide 16 marbles into groups of 8. How many groups?",
-    "options": ["2", "3", "1"],
-    "answer": "2"
-  },
-  {
-    "question": "What is 21 ÷ 7?",
-    "options": ["3", "2", "4", "5"],
-    "answer": "3"
-  },
-  {
-    "question": "Share 24 pencils equally among 6 students. How many each?",
-    "options": ["4", "3", "5", "2"],
-    "answer": "4"
-  },
-  {
-    "question": "What is 25 ÷ 5?",
-    "options": ["5", "4", "6", "3"],
-    "answer": "5"
-  },
-  {
-    "question": "What shape has 3 sides?",
-    "options": ["circle", "triangle", "square"],
-    "answer": "triangle"
-  },
-  {
-    "question": "How many corners does a rectangle have?",
-    "options": ["3", "4", "5", "6"],
-    "answer": "4"
-  },
-  {
-    "question": "Which shape is round?",
-    "options": ["square", "circle", "triangle", "rectangle"],
-    "answer": "circle"
-  },
-  {
-    "question": "How many sides does a square have?",
-    "options": ["3", "4", "5"],
-    "answer": "4"
-  },
-  {
-    "question": "What shape has no corners?",
-    "options": ["triangle", "square", "circle", "rectangle"],
-    "answer": "circle"
-  },
-  {
-    "question": "How many sides does a pentagon have?",
-    "options": ["4", "5", "6", "3"],
-    "answer": "5"
-  },
-  {
-    "question": "Which shape has 4 equal sides?",
-    "options": ["rectangle", "square", "triangle"],
-    "answer": "square"
-  },
-  {
-    "question": "How many corners does a triangle have?",
-    "options": ["2", "3", "4"],
-    "answer": "3"
-  },
-  {
-    "question": "What shape has 6 sides?",
-    "options": ["pentagon", "hexagon", "square", "triangle"],
-    "answer": "hexagon"
-  },
-  {
-    "question": "Which shape has opposite sides equal?",
-    "options": ["triangle", "rectangle", "circle"],
-    "answer": "rectangle"
-  },
-  {
-    "question": "How many minutes are in 1 hour?",
-    "options": ["50", "60", "70", "40"],
-    "answer": "60"
-  },
-  {
-    "question": "What time is shown: 3:30?",
-    "options": ["half past 3", "3 o'clock", "quarter to 4"],
-    "answer": "half past 3"
-  },
-  {
-    "question": "How many hours are in a day?",
-    "options": ["20", "24", "22", "26"],
-    "answer": "24"
-  },
-  {
-    "question": "What comes after Wednesday?",
-    "options": ["Tuesday", "Thursday", "Friday", "Monday"],
-    "answer": "Thursday"
-  },
-  {
-    "question": "How many days are in a week?",
-    "options": ["6", "7", "8", "5"],
-    "answer": "7"
-  },
-  {
-    "question": "What time is 15 minutes after 2:00?",
-    "options": ["2:15", "2:30", "1:45", "2:45"],
-    "answer": "2:15"
-  },
-  {
-    "question": "Which month comes after March?",
-    "options": ["February", "April", "May", "January"],
-    "answer": "April"
-  },
-  {
-    "question": "How many months are in a year?",
-    "options": ["10", "12", "11", "13"],
-    "answer": "12"
-  },
-  {
-    "question": "What day comes before Sunday?",
-    "options": ["Monday", "Saturday", "Friday", "Tuesday"],
-    "answer": "Saturday"
-  },
-  {
-    "question": "What time is quarter past 4?",
-    "options": ["4:15", "4:30", "4:45", "3:45"],
-    "answer": "4:15"
-  },
-  {
-    "question": "Which unit measures length?",
-    "options": ["kilogram", "meter", "liter"],
-    "answer": "meter"
-  },
-  {
-    "question": "What do we use to measure weight?",
-    "options": ["ruler", "scale", "clock", "thermometer"],
-    "answer": "scale"
-  },
-  {
-    "question": "How many centimeters are in 1 meter?",
-    "options": ["10", "100", "50", "200"],
-    "answer": "100"
-  },
-  {
-    "question": "Which is longer: 50cm or 1m?",
-    "options": ["50cm", "1m", "same"],
-    "answer": "1m"
-  },
-  {
-    "question": "What unit measures liquid?",
-    "options": ["gram", "liter", "meter", "degree"],
-    "answer": "liter"
-  },
-  {
-    "question": "Which is heavier: 2kg or 1500g?",
-    "options": ["2kg", "1500g", "same"],
-    "answer": "2kg"
-  },
-  {
-    "question": "How many grams are in 1 kilogram?",
-    "options": ["100", "1000", "500", "10"],
-    "answer": "1000"
-  },
-  {
-    "question": "Which tool measures temperature?",
-    "options": ["ruler", "scale", "thermometer", "clock"],
-    "answer": "thermometer"
-  },
-  {
-    "question": "What is the length of your hand span approximately?",
-    "options": ["1 meter", "20 centimeters", "1 kilometer"],
-    "answer": "20 centimeters"
-  },
-  {
-    "question": "Which is the correct way to measure a table's length?",
-    "options": ["from corner to corner", "from end to end", "around the edge"],
-    "answer": "from end to end"
-  },
-  {
-    "question": "If 1 apple costs $2, how much do 3 apples cost?",
-    "options": ["$5", "$6", "$4", "$7"],
-    "answer": "$6"
-  },
-  {
-    "question": "You have $10. You buy a toy for $6. How much money is left?",
-    "options": ["$4", "$3", "$5", "$2"],
-    "answer": "$4"
-  },
-  {
-    "question": "Which coin is worth 25 cents?",
-    "options": ["penny", "nickel", "quarter", "dime"],
-    "answer": "quarter"
-  },
-  {
-    "question": "How many pennies equal 1 dollar?",
-    "options": ["50", "100", "25", "10"],
-    "answer": "100"
-  },
-  {
-    "question": "If you save $5 each week for 3 weeks, how much do you save?",
-    "options": ["$15", "$10", "$20", "$8"],
-    "answer": "$15"
-  },
-  {
-    "question": "A book costs $8. You pay with $10. What is your change?",
-    "options": ["$2", "$3", "$1", "$4"],
-    "answer": "$2"
-  },
-  {
-    "question": "How many nickels equal 25 cents?",
-    "options": ["4", "5", "3", "6"],
-    "answer": "5"
-  },
-  {
-    "question": "You buy 2 pencils for $1 each. How much do you spend?",
-    "options": ["$1", "$2", "$3"],
-    "answer": "$2"
-  },
-  {
-    "question": "Which is worth more: 3 quarters or 7 dimes?",
-    "options": ["3 quarters", "7 dimes", "same"],
-    "answer": "3 quarters"
-  },
-  {
-    "question": "If you have 2 dollars and 3 quarters, how much money do you have?",
-    "options": ["$2.75", "$2.50", "$3.00", "$2.30"],
-    "answer": "$2.75"
-  },
-  {
-    "question": "Look at this pattern: ○●○●○. What comes next?",
-    "options": ["○", "●", "○○"],
-    "answer": "●"
-  },
-  {
-    "question": "Complete: 5, 10, 15, 20, ___",
-    "options": ["22", "25", "30", "24"],
-    "answer": "25"
-  },
-  {
-    "question": "What comes next: □△□△□?",
-    "options": ["□", "△", "○"],
-    "answer": "△"
-  },
-  {
-    "question": "Continue the pattern: 2, 4, 6, 8, ___",
-    "options": ["9", "10", "12", "11"],
-    "answer": "10"
-  },
-  {
-    "question": "What's the pattern rule: 3, 6, 9, 12?",
-    "options": ["add 2", "add 3", "add 4"],
-    "answer": "add 3"
-  },
-  {
-    "question": "Complete: AB, CD, EF, ___",
-    "options": ["GH", "GI", "FG", "HI"],
-    "answer": "GH"
-  },
-  {
-    "question": "What comes next: 1, 3, 5, 7, ___?",
-    "options": ["8", "9", "10", "11"],
+    "question": "A number multiplied by 6 gives 54. What is the number?",
+    "options": ["9", "8", "10", "48"],
     "answer": "9"
   },
   {
-    "question": "Continue: ★☆★☆★?",
-    "options": ["★", "☆", "●"],
-    "answer": "☆"
+    "question": "If 1 meter = 100 centimeters, how many centimeters are in 2.5 meters?",
+    "options": ["250cm", "25cm", "2500cm", "205cm"],
+    "answer": "250cm"
   },
   {
-    "question": "What's missing: 10, 20, ___, 40?",
-    "options": ["25", "30", "35", "28"],
-    "answer": "30"
+    "question": "A calendar shows that March has 31 days. If March 1st is a Wednesday, what day is March 31st?",
+    "options": ["Friday", "Thursday", "Saturday", "Sunday"],
+    "answer": "Friday"
   },
   {
-    "question": "Complete the color pattern: Red, Blue, Red, Blue, ___",
-    "options": ["Red", "Blue", "Green"],
-    "answer": "Red"
+    "question": "In a bag of mixed nuts, there are 16 almonds, 12 walnuts, and 8 cashews. What fraction of the nuts are almonds?",
+    "options": ["16/36", "4/9", "1/3", "16/28"],
+    "answer": "4/9"
   },
   {
-    "question": "How many students chose pizza if 8 chose burgers and 12 chose pizza?",
-    "options": ["8", "12", "20", "4"],
-    "answer": "12"
-  },
-  {
-    "question": "In a class of 25 students, 15 are boys. How many are girls?",
-    "options": ["10", "15", "5", "20"],
-    "answer": "10"
-  },
-  {
-    "question": "A box has 6 red balls and 4 blue balls. How many balls in total?",
-    "options": ["6", "4", "10", "2"],
-    "answer": "10"
-  },
-  {
-    "question": "If 7 children have pets and 3 don't, how many children in total?",
-    "options": ["7", "3", "10", "4"],
-    "answer": "10"
-  },
-  {
-    "question": "A parking lot has 12 cars and 8 trucks. How many vehicles total?",
-    "options": ["12", "8", "20", "4"],
-    "answer": "20"
-  },
-  {
-    "question": "In a fruit basket: 5 apples, 3 oranges, 2 bananas. How many fruits?",
-    "options": ["5", "8", "10", "3"],
-    "answer": "10"
-  },
-  {
-    "question": "A library has 15 fiction books and 9 non-fiction books. Total books?",
-    "options": ["15", "9", "24", "6"],
-    "answer": "24"
-  },
-  {
-    "question": "If 6 birds are on a tree and 4 fly away, how many remain?",
-    "options": ["6", "4", "2", "10"],
-    "answer": "2"
-  },
-  {
-    "question": "A garden has 14 roses and 6 tulips. How many flowers total?",
-    "options": ["14", "6", "20", "8"],
-    "answer": "20"
-  },
-  {
-    "question": "In a zoo: 8 lions, 5 tigers, 3 bears. How many animals?",
-    "options": ["8", "13", "16", "5"],
-    "answer": "16"
-  },
-  {
-    "question": "What is the sum of 45 + 38?",
-    "options": ["83", "82", "84", "81"],
-    "answer": "83"
-  },
-  {
-    "question": "Find: 67 - 29",
-    "options": ["38", "37", "39", "36"],
-    "answer": "38"
-  },
-  {
-    "question": "What is 7 × 8?",
-    "options": ["54", "56", "58", "52"],
-    "answer": "56"
-  },
-  {
-    "question": "Divide: 36 ÷ 9",
-    "options": ["4", "3", "5", "6"],
-    "answer": "4"
-  },
-  {
-    "question": "What is 52 + 29?",
-    "options": ["81", "80", "82", "79"],
-    "answer": "81"
-  },
-  {
-    "question": "Find: 73 - 46",
-    "options": ["27", "26", "28", "25"],
-    "answer": "27"
-  },
-  {
-    "question": "What is 9 × 4?",
-    "options": ["36", "35", "37", "34"],
-    "answer": "36"
-  },
-  {
-    "question": "Divide: 42 ÷ 6",
-    "options": ["7", "6", "8", "5"],
-    "answer": "7"
-  },
-  {
-    "question": "What is 64 + 17?",
-    "options": ["81", "80", "82", "79"],
-    "answer": "81"
-  },
-  {
-    "question": "Find: 85 - 37",
-    "options": ["48", "47", "49", "46"],
-    "answer": "48"
-  },
-  {
-    "question": "Which fraction is larger: 1/2 or 1/4?",
-    "options": ["1/2", "1/4", "same"],
-    "answer": "1/2"
-  },
-  {
-    "question": "What fraction of this circle is shaded if half is colored?",
-    "options": ["1/4", "1/2", "1/3", "2/3"],
-    "answer": "1/2"
-  },
-  {
-    "question": "If you eat 2 slices of a pizza cut into 8 slices, what fraction did you eat?",
-    "options": ["2/8", "2/6", "1/4", "1/2"],
-    "answer": "2/8"
-  },
-  {
-    "question": "Which is smaller: 1/3 or 1/2?",
-    "options": ["1/3", "1/2", "same"],
-    "answer": "1/3"
-  },
-  {
-    "question": "What fraction represents 3 out of 4 equal parts?",
-    "options": ["3/4", "4/3", "1/4", "3/1"],
-    "answer": "3/4"
-  },
-  {
-    "question": "If a chocolate bar has 6 pieces and you eat 1, what fraction is left?",
-    "options": ["5/6", "1/6", "1/5", "6/5"],
-    "answer": "5/6"
-  },
-  {
-    "question": "Which fraction equals one whole?",
-    "options": ["2/2", "1/2", "3/2", "0/2"],
-    "answer": "2/2"
-  },
-  {
-    "question": "What fraction is equivalent to 2/4?",
-    "options": ["1/2", "1/4", "3/4", "4/2"],
-    "answer": "1/2"
-  },
-  {
-    "question": "If 1/4 of 12 cookies are chocolate chip, how many are chocolate chip?",
-    "options": ["3", "4", "6", "2"],
-    "answer": "3"
-  },
-  {
-    "question": "Which fraction is closest to 1?",
-    "options": ["3/4", "1/4", "1/2", "7/8"],
-    "answer": "7/8"
-  },
-  {
-    "question": "What comes next in the sequence: 100, 90, 80, ___?",
-    "options": ["70", "75", "60", "85"],
-    "answer": "70"
-  },
-  {
-    "question": "Which number is exactly in the middle of 20 and 30?",
-    "options": ["24", "25", "26", "23"],
-    "answer": "25"
-  },
-  {
-    "question": "What is 100 - 45?",
-    "options": ["55", "54", "56", "53"],
-    "answer": "55"
-  },
-  {
-    "question": "How many 5s are in 50?",
-    "options": ["10", "5", "15", "8"],
-    "answer": "10"
-  },
-  {
-    "question": "What is the double of 23?",
-    "options": ["46", "45", "47", "44"],
-    "answer": "46"
-  },
-  {
-    "question": "Which number is 15 more than 68?",
-    "options": ["83", "82", "84", "81"],
-    "answer": "83"
-  },
-  {
-    "question": "What is half of 86?",
-    "options": ["43", "42", "44", "41"],
-    "answer": "43"
-  },
-  {
-    "question": "Find the missing number: 35, 40, 45, ___, 55",
-    "options": ["50", "48", "52", "47"],
-    "answer": "50"
-  },
-  {
-    "question": "What is 6 × 7?",
-    "options": ["42", "41", "43", "40"],
-    "answer": "42"
-  },
-  {
-    "question": "Which number has 8 tens and 3 ones?",
-    "options": ["83", "38", "80", "3"],
-    "answer": "83"
-  },
-  {
-    "question": "A rectangle is 8cm long and 5cm wide. What is its perimeter?",
-    "options": ["26cm", "25cm", "24cm", "27cm"],
-    "answer": "26cm"
-  },
-  {
-    "question": "How many right angles does a square have?",
-    "options": ["2", "3", "4", "1"],
-    "answer": "4"
-  },
-  {
-    "question": "Which 3D shape has no flat surfaces?",
-    "options": ["cube", "sphere", "pyramid", "cone"],
-    "answer": "sphere"
-  },
-  {
-    "question": "How many faces does a cube have?",
-    "options": ["4", "5", "6", "8"],
+    "question": "A cube has 8 corners and 12 edges. How many faces does it have?",
+    "options": ["6", "5", "7", "20"],
     "answer": "6"
-  },
-  {
-    "question": "What is the area of a square with sides of 4cm?",
-    "options": ["16cm²", "12cm²", "8cm²", "20cm²"],
-    "answer": "16cm²"
-  },
-  {
-    "question": "Which shape has 8 vertices?",
-    "options": ["triangle", "square", "cube", "circle"],
-    "answer": "cube"
-  },
-  {
-    "question": "How many edges does a triangular prism have?",
-    "options": ["6", "9", "12", "8"],
-    "answer": "9"
-  },
-  {
-    "question": "What shape do you get when you cut a square diagonally?",
-    "options": ["rectangle", "triangle", "circle", "hexagon"],
-    "answer": "triangle"
-  },
-  {
-    "question": "Which line is longer: 7cm or 65mm?",
-    "options": ["7cm", "65mm", "same"],
-    "answer": "7cm"
-  },
-  {
-    "question": "A cone has how many flat surfaces?",
-    "options": ["0", "1", "2", "3"],
-    "answer": "1"
-  },
-  {
-    "question": "What time will it be 3 hours after 2:30?",
-    "options": ["5:30", "5:00", "6:30", "4:30"],
-    "answer": "5:30"
-  },
-  {
-    "question": "How many seconds are in 2 minutes?",
-    "options": ["60", "120", "100", "80"],
-    "answer": "120"
-  },
-  {
-    "question": "If it's 4:45 now, what time was it 15 minutes ago?",
-    "options": ["4:30", "4:15", "5:00", "4:60"],
-    "answer": "4:30"
-  },
-  {
-    "question": "Which season comes after summer?",
-    "options": ["spring", "winter", "autumn", "summer"],
-    "answer": "autumn"
   }
 ]
