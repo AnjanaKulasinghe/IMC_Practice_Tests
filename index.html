@@ -244,26 +244,6 @@ let userAnswers = [];
 let timer = 45 * 60; // 45 minutes
 let timerInterval;
 
-// Sample questions for demonstration - replace with your JSON file
-const sampleQuestions = [
-  {
-    question: "What is 2 + 3?",
-    options: ["4", "5", "6", "7"],
-    answer: "5"
-  },
-  {
-    question: "Which is bigger: 8 or 5?",
-    options: ["8", "5", "They are equal"],
-    answer: "8"
-  },
-  {
-    question: "How many sides does a triangle have?",
-    options: ["2", "3", "4", "5"],
-    answer: "3"
-  },
-  // Add more questions here...
-];
-
 // Initialize the test
 function initializeTest() {
   questions = sampleQuestions; // Replace with your JSON loading
@@ -271,7 +251,6 @@ function initializeTest() {
   userAnswers = Array(shuffledQuestions.length).fill(null);
   currentIndex = 0;
   showQuestion(currentIndex);
-  startTimer();
 }
 
 // Uncomment this section when you have your JSON file
